@@ -1,0 +1,29 @@
+$white: white;
+$black: #0a0a0a;
+$light-green: #98db7d;
+
+
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.6rem;
+$s-size: 1.2rem;
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: $white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
