@@ -57,6 +57,9 @@
 
 #home .btn:hover{
   background: $dark-green;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 #home .btn p {
