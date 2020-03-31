@@ -1,4 +1,3 @@
-baseURL = "http://example.org/"
+baseURL = "http://prakriti.msit.in/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "navigator"
+title = "Prakriti Website"
