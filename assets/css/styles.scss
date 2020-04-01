@@ -1,20 +1,20 @@
-@import './_base';
+@import "./_base";
 
 /* navbar */
 .ui .menu {
-   font-size: $l-size;
+  font-size: $l-size;
 }
 
-.active{
+.active {
   color: $heading-color;
 }
 
-.ui .menu .item{
+.ui .menu .item {
   color: $paragraph-color;
 }
 
 /*home*/
-#home{
+#home {
   padding: 0;
   margin: 0;
   height: 80vh;
@@ -24,28 +24,28 @@
   align-content: center;
 }
 
-#home-left{
-  padding: $xl-size*2 0 0 $xl-size*1.7;
+#home-left {
+  padding: $xl-size * 2 0 0 $xl-size * 1.7;
   color: $paragraph-color;
   width: 55%;
-  font-size: $m-size*1.5;
+  font-size: $m-size * 1.5;
 }
 
-#home h1{
-  font-size: $xl-size*1.2;
+#home h1 {
+  font-size: $xl-size * 1.2;
   color: $heading-color;
 }
 
-#home img{
+#home img {
   max-width: 100%;
   max-height: 100%;
-  padding:0;
+  padding: 0;
 }
 
-#home .btn{
+#home .btn {
   margin: 0;
   display: inline-block;
-  width: $xl-size*4;
+  width: $xl-size * 4;
   height: 60px;
   background: $light-green;
   margin: 10px;
@@ -55,7 +55,7 @@
   position: relative;
 }
 
-#home .btn:hover{
+#home .btn:hover {
   background: $dark-green;
   transform: scale(1.1);
   transition-duration: 0.5s;
@@ -66,3 +66,12 @@
   padding: $s-size 0 0 $s-size;
 }
 
+#content {
+  min-height: 100px;
+}
+.ui.grid {
+  padding: 0 !important;
+}
+.pushable.segment {
+  margin: 0 !important;
+}
