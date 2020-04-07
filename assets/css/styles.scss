@@ -75,3 +75,90 @@
 .pushable.segment {
   margin: 0 !important;
 }
+
+/* about */
+
+.ui .menu .item{
+ color: #6e7c90;
+}
+.heading{
+  padding: $xl-size 0 0 $xl-size * 1.7;
+}
+ .hrsection{
+   width:4% ;
+   border: 1.5px solid #55c882 ;
+   text-align: left;
+   }
+  .tophead {
+   font-size: 14px;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-style: normal;
+   letter-spacing: 3px;
+   color: #55C882;
+   margin: 0px 0px 15px 0px;
+   padding: 0px 0px 0px 0px;
+}
+.hh{
+  display: block;
+  /*position: relative */
+}
+#about .sub-heading {
+   font-size: $m-size*1.3;
+   font-weight: 500;
+   color: #ff8b3c;
+   margin: 0px 0px 15px 0px;
+   padding: 0px 0px 0px 0px;
+   }
+  #about {
+    padding: 0;
+    margin: 0;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  #about-left {
+    padding: $s-size 0 0 $xl-size * 1.7;
+    color: $paragraph-color;
+    width: 75%;
+    font-size: $m-size*1.3;
+  }
+  
+  #about h1 {
+    font-size: $l-size*1.5;
+    color: $heading-color;
+  }
+  
+  #about-right img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0 0 0 $m-size;
+    margin: 0 0 0 $xl-size;
+  }
+  
+  #about .btn {
+    margin: 0;
+    display: inline-block;
+    width: $xl-size * 4;
+    height: 60px;
+    background: $light-green;
+    margin: 10px;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #f1f1f1;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #about .btn:hover {
+    background: $dark-green;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  #about .btn p {
+    padding: $s-size 0 0 $s-size;
+  }

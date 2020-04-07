@@ -2,17 +2,10 @@
 
 {{ define "main" }}
 
-<div class="ui pushable segment">
-    <div class="ui sidebar vertical menu">
-        <a class="item">Menu Item A</a>
-        <a class="item">Menu Item B</a>
-        <a class="item">Menu Item C</a>
-        <a class="item">Menu Item D</a>
-    </div>
-    <div class="pusher">
         <div id="content" class="ui segment">
             <!-- Add Partails here -->
             {{ partial "home.html" . }}
+            {{ partial "about.html"}}
         </div>
     </div>
 </div>
