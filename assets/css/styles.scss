@@ -17,12 +17,18 @@
 #home {
   padding: 0;
   margin: 0;
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-content: center;
 }
+
+#home-left .hrsection{
+  width:10% ;
+  border: 1.5px solid #55c882 ;
+  text-align: left;
+  }
 
 #home-left {
   padding: $xl-size * 2 0 0 $xl-size * 1.7;
@@ -76,13 +82,89 @@
   margin: 0 !important;
 }
 
+/*good causes*/
+
+#good{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background: #f7fafe;
+}
+
+.good-heading{
+  padding-top: $xl-size;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#good .tophead {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 3px;
+  color: #55C882;
+  margin: 0px 0px 15px 0px;
+  padding: 0px 0px 0px 0px;
+}
+#good .hh{
+ display: block;
+}
+
+#good h1 {
+  font-size: $xl-size * 1.1;
+  color: $heading-color;
+}
+
+#good p {
+  color: $paragraph-color;
+}
+
+.cards{
+  padding: $xl-size $l-size $m-size $l-size;
+}
+
+.card{
+  cursor: pointer;
+}
+
+.ui.cards>.card{
+  box-shadow: 0 5px 15px -5px #00000070;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+.card .good-heading img{
+  width: $xl-size*3;
+  height: $xl-size*3;
+  padding-top: $l-size;
+}
+.card .good-heading h1{
+  margin: $s-size 0 0 0;
+
+}
+.card .good-heading p{
+  margin: $s-size $xl-size $xl-size $xl-size;
+  font-size: $m-size;
+  text-align: center;
+}
+
+.card .good-heading .fas  {
+  width: $xl-size*3;
+  height: $xl-size*3;
+  padding-top: $l-size;
+}
+/*goog causes ends */
+
 /* about */
 
 .ui .menu .item{
  color: #6e7c90;
 }
 .heading{
-  padding: $xl-size 0 0 $xl-size * 1.7;
+  padding: $xl-size*1.5 0 0 $xl-size * 1.7;
 }
  .hrsection{
    width:4% ;

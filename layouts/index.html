@@ -2,10 +2,11 @@
 
 {{ define "main" }}
 
-        <div id="content" class="ui segment">
+        <div id="content" class="ui">
             <!-- Add Partails here -->
             {{ partial "home.html" . }}
-            {{ partial "about.html"}}
+            {{ partial "goodcauses.html" . }}
+            {{ partial "about.html" . }}
         </div>
     </div>
 </div>
